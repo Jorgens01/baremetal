@@ -50,3 +50,18 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Ignore build directories
+/build/
+CMakeFiles/
+CMakeCache.txt
+*.ninja
+*.o
+cmake_install.cmake
+
+# Ignore IDE-specific files
+.vscode/
+
+# Ignore logs and temporary files
+*.log
+*.yaml
